@@ -20,7 +20,7 @@ int main() {
 
     float time = (float)(end-begin)/CLOCKS_PER_SEC;
 
-    fprintf(ftxtfile,"Total Time Spent : %f",time);
+    fprintf(ftxtfile,"Total Time Spent to Process: %f",time);
 
     fclose(ftxtfile);
 }
